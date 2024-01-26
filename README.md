@@ -44,3 +44,92 @@ The structure of Wavelet-Spatial Dual Attention.
   </tr>
 </tbody>
 </table>
+
+## Training
+Please download the corresponding datasets and put them in the folder `datasets`.  
+To initiate the training of the neural network, execute the subsequent commands. Employ the Rain200H dataset as an illustrative instance.
+```
+python train.py --exp_name WSDformer_Rain200H --train_data_path ./datasets/Rain200H/train --test_data_path ./datasets/Rain200H/test
+```
+Run the script then you can find the generated experimental logs in the folder `training_log` and the trained weights in the folder `weights`.
+Please note that when training SPA-Data, you have to change the counting method to iteration and set iter to 300,000.
+
+## Testing
+We refer to the [IDT](https://github.com/jiexiaou/IDT) test methodology. To evaluate the image with arbitrary size, we first split the image to overlapped 256*256 patches, and merge evaluated patches back to original resolution. 
+Enter the following commands to test the network. Take the dataset Rain200H as an example.
+```
+python test_full_size.py --exp_name WSDformer_Rain200H --test_data_path ./datasets/Rain200H/test
+```
+Run the script then you can find the generated outputs in the folder `results`.
+
+For the task of segmentation after de-raining in Cityscapes-rain, we refer to the experimental setup of [SGINet](https://github.com/OaDsis/SGINet), and used the [PSPNet50](https://github.com/hszhao/semseg) that was well trained on the Cityscapes dataset for the experiments. The experiments were tested using the integrated pspnet in [mmsegmentation](https://mmsegmentation.readthedocs.io/en/latest/). Where the configuration file used is `pspnet_r50-d8_512x1024_40k_cityscapes.py` and the training weights are `pspnet_r50-d8_512x1024_40k_cityscapes_20200605_003338-2966598c.pth`.
+
+## Pre-trained Models
+<table>
+<thead>
+  <tr>
+    <th>Dataset</th>
+    <th>Outdoor-rain</th>
+    <th>Rain200L</th>
+    <th>Rain200H</th>
+    <th>DID-Data</th>
+    <th>DDN-Data</th>
+    <th>SPA-Data</th>
+    <th>Rain100L</th>
+    <th>Rain100H</th>
+    <th>Cityscapes-rain</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Baidu Cloud</td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+  </tr>
+</tbody>
+</table>
+
+## Evaluation
+See folder `evaluations`
+Outdoor-rain/Rain200L/Rain200H/SPA-Data/Rain100L/Rain100H/Cityscapes-rain: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_1/evaluaterain.m)
+DID-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_2/statistic_DID.m)
+DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_2/statistic_DID.m)
+
+## Deraining Results
+<table>
+<thead>
+  <tr>
+    <th>Dataset</th>
+    <th>Outdoor-rain</th>
+    <th>Rain200L</th>
+    <th>Rain200H</th>
+    <th>DID-Data</th>
+    <th>DDN-Data</th>
+    <th>SPA-Data</th>
+    <th>Rain100L</th>
+    <th>Rain100H</th>
+    <th>Cityscapes-rain</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Baidu Cloud</td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+    <td> <a href="">Download </a> </td>
+  </tr>
+</tbody>
+</table>
