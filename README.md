@@ -98,9 +98,12 @@ For the task of segmentation after de-raining in Cityscapes-rain, we refer to th
 
 ## Evaluation
 See folder `evaluations`
-Outdoor-rain/Rain200L/Rain200H/SPA-Data/Rain100L/Rain100H/Cityscapes-rain: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_1/evaluaterain.m)
-DID-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_2/statistic_DID.m)
-DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/evaluations/Evaluation_2/statistic_DID.m)
+
+Outdoor-rain/Rain200L/Rain200H/SPA-Data/Rain100L/Rain100H/Cityscapes-rain: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evaluations/Evaluation_1/evaluaterain.m)
+
+DID-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evaluations/Evaluation_2/statistic_DID.m)
+
+DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evaluations/Evaluation_2/statistic_DID.m)
 
 ## Deraining Results
 <table>
