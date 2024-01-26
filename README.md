@@ -144,3 +144,13 @@ DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evalua
   </tr>
 </tbody>
 </table>
+
+## Citation
+
+## Acknowledgment
+This code is based on the [IDT](https://github.com/jiexiaou/IDT). 
+The evaluation code borrows from [DRSformer](https://github.com/cschenxiang/DRSformer).
+Thanks for their awesome work.
+
+## Contact
+Should you have any question or suggestion, please contact yujz3@mail2.sysu.edu.cn
