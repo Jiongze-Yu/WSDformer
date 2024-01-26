@@ -105,6 +105,12 @@ DID-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evalua
 
 DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evaluations/Evaluation_2/statistic_DID.m)
 
+![tab2](fig/tab2.png)
+
+![tab3](fig/tab3.png)
+
+![tab1_4](fig/tab1_4.png)
+
 ## Deraining Results
 <table>
 <thead>
