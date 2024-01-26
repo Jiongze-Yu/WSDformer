@@ -7,6 +7,6 @@ Ronghui Zhang, Jiongze Yu, Junzhou Chen, Guofa Li, Liang Lin, Danwei Wang
 
 ![WSDformer](fig/Network.png)
 
-![WSDA](fig/WSDA.png)
+![WSDA](fig/WSDA.png) 
 
 ![Priorformer](fig/Priorformer.png)
