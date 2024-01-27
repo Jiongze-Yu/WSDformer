@@ -68,7 +68,7 @@ For the task of segmentation after de-raining in Cityscapes-rain, we refer to th
 <table>
 <thead>
   <tr>
-    <th>Dataset</th>
+    <th>Weights</th>
     <th>Outdoor-rain</th>
     <th>Rain200L</th>
     <th>Rain200H</th>
@@ -83,15 +83,15 @@ For the task of segmentation after de-raining in Cityscapes-rain, we refer to th
 <tbody>
   <tr>
     <td>Baidu Cloud</td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1H5CywMn-6eB6_wMusryLig?pwd=rt2b">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/10EZpWokb58EgpPZ8JGZQPA?pwd=gdyg">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1zB-PyTXBWnpzIFHU0EaWOg?pwd=3iun">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1QA7lo0d-w9skmw7MY1-mkw?pwd=r6wl">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1q8raj-TISUBeTFAD5wsS2w?pwd=9mbn">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1_4SBJyYPGk5CNykXvNzHTQ?pwd=sqx1">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/10b_owH5yd0ZvLhKAl0l6Bg?pwd=sg12">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1hV5FfQmQampVN9z9q0pO9w?pwd=97a9">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1eWBO6_7soFcfhJwAFPPXUA?pwd=q22h">Download </a> </td>
   </tr>
 </tbody>
 </table>
@@ -117,7 +117,7 @@ DDN-Data: [Matlab Code](https://github.com/Jiongze-Yu/WSDformer/blob/main/evalua
 <table>
 <thead>
   <tr>
-    <th>Dataset</th>
+    <th>Results</th>
     <th>Outdoor-rain</th>
     <th>Rain200L</th>
     <th>Rain200H</th>
