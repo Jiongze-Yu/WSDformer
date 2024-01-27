@@ -32,15 +32,15 @@ The structure of Wavelet-Spatial Dual Attention.
 <tbody>
   <tr>
     <td>Baidu Cloud</td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
-    <td> <a href="">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1EMeialIqy43uAk9idY9UbA?pwd=9pyu">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1YkiAw5jRxjs9EIQRloKUIg?pwd=v7tf">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1bSbj3PD9DRadlTgHn0Rjjg?pwd=fmpu">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/12zDX-cS75QsYW7XFR8h-gA?pwd=6e6p">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/14TTqMl1zfF245LPQK7GZwA?pwd=98ls">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1UQnQZ8Y624cMXcHsQyjoOw?pwd=vyw8">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1QFjHXqBCykouUZAJd_UwTg?pwd=hxmo">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1AZ08XWFfhcSB5LDGQi8peQ?pwd=nqhu">Download </a> </td>
+    <td> <a href="https://pan.baidu.com/s/1zERPnMC6drjNDMVYFlpIZw?pwd=z787">Download </a> </td>
   </tr>
 </tbody>
 </table>
